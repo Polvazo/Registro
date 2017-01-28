@@ -2,8 +2,8 @@ package ventureapp.registro;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -20,6 +20,8 @@ public class register extends AppCompatActivity {
         usuario=(TextView) findViewById(R.id.idusario);
         tdni=(EditText)findViewById(R.id.iddni2);
     }
+
+    //Consulta del registro
     public void consulta(View v) {
         DataBaseRegister admin = new DataBaseRegister(this,
                 "Registro", null, 1);
