@@ -21,7 +21,7 @@ public class register extends AppCompatActivity {
         tdni=(EditText)findViewById(R.id.iddni2);
     }
 
-    //Consulta del registros
+    //Consulta del registro
     public void consulta(View v) {
         DataBaseRegister admin = new DataBaseRegister(this,
                 "Registro", null, 1);
