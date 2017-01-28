@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DataBaseRegister extends SQLiteOpenHelper {
 
-    //Creando base de datos
+    //Creando base de datoss
     public DataBaseRegister(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
     }
