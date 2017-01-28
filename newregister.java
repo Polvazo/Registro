@@ -26,7 +26,7 @@ public class newregister extends AppCompatActivity  {
         etdni=(EditText)findViewById(R.id.iddni);
     }
 
-    //subir los datos
+    //subir los dato
     public void alta (View v) {
         DataBaseRegister admin = new DataBaseRegister(this,"Registro",null,1);
         SQLiteDatabase bd=admin.getWritableDatabase();
