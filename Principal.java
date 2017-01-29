@@ -10,7 +10,7 @@ public class Principal extends AppCompatActivity {
 
     Button register;
     Button newregister;
-//Menu principal
+//Menu principals
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
